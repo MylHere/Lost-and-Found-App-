@@ -88,11 +88,8 @@ public class NewAdvert extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_advert);
 
-        // Initialize Places API
-//        if (!Places.isInitialized()) {
-//            Places.initialize(getApplicationContext(), "AIzaSyCGmdptSL1RPN8CeIPYmc1YWMBYUt2a_uQ");
-//        }
-        Places.initialize(getApplicationContext(), "AIzaSyCi1JBzI1wH2G_I5j76RxgGjARa6CEzNXc");
+      
+        Places.initialize(getApplicationContext(), "YOUR_API_KEY");
 
         // Create a new Places client instance
         placesClient = Places.createClient(this);
