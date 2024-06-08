@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextLocation" type="id" />
+    <item name="textViewLocation" type="id" />
+    <item name="autocomplete_fragment" type="id" />
+</resources>
